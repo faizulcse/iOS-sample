@@ -1,16 +1,10 @@
 package testcases;
 
-import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
 public class LoginTest extends TestSetup {
-    public LoginTest() {
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-    }
-
     @Test
     public void loginTest() {
         LoginPage loginPage = new LoginPage();

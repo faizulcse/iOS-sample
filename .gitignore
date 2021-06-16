@@ -3,3 +3,4 @@
 iOS-sample.iml
 target/
 .idea/vcs.xml
+.DS_Store
